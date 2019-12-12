@@ -1,0 +1,16 @@
+body {
+    background-color: #F5F5F5;
+}
+
+.breadcrumb{
+    background: transparent;
+}
+
+.breadcrumb-item + .breadcrumb-item::before{
+    content:"|";
+}
+
+.input-hw {
+    width: 24rem !important;
+    height: 2.2rem;
+}

@@ -1,0 +1,33 @@
+// css reset
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.font_small {
+    font-size: 0.8rem;
+}
+
+.font_small2 {
+    font-size: 0.5rem;
+    text-indent: 0.4rem;
+}
+
+a, a:hover {
+    text-decoration:none;
+}
+
+ul {
+    list-style: none;
+}
+
+.fl {
+    float: left;  
+}
+
+.fr {
+    float: right;  
+}
+
+

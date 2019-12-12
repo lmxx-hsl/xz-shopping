@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.font_small {
+  font-size: 0.8rem; }
+
+.font_small2 {
+  font-size: 0.5rem;
+  text-indent: 0.4rem; }
+
+a, a:hover {
+  text-decoration: none; }
+
+ul {
+  list-style: none; }
+
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+
+/* 设置头和脚的尺寸*/
+.header_size, .footer_size {
+  width: 100%;
+}
+
+/*响应式高度*/
+@media (min-width: 992px) {
+  .footer_size {
+    height: 16rem;
+  }
+
+  .header_size {
+    height: 5rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .header_size {
+    height: 12rem;
+  }
+  .footer_size {
+    height: 30rem;
+  }
+}
+
+/* 图片的过渡*/
+.img-transform {
+  transition: 1s;
+}
+
+.img-transform:hover {
+  transform: scale(1.001);
+}
+
